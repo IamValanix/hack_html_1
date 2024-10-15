@@ -1,0 +1,131 @@
+html, body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.spacer {
+    position: relative;
+    top: 3.1em;
+    margin:auto;
+    width: 120px;
+    height: 9px;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Ruda", sans-serif;
+    text-transform: uppercase;
+    margin-top: 5em;
+}
+
+.main-title h3{
+    font-size: 30px;
+    margin: 5px;
+    margin: 0;
+    height: 20px;
+}
+.main-title h1{
+    font-size: 100px;
+    margin: 5px;
+    COLOR: #B88940;
+    font-weight: 800;
+    margin: 0;
+    height: 100px;
+}
+.main-title h2{
+    font-size: 50px;
+    margin: 5px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.main-title h4{
+    font-size: 25px;
+    margin: 5px;
+}
+.img {
+    margin-top: 5.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    gap: 5px;
+}
+.img .imagen-1{
+    height: 250px;
+    width: 250px;
+    z-index: 10;
+}
+.img .imagen-1 img{
+    height: 100%;
+    width: 100%;
+}
+.img .imagen-2{
+    height: 250px;
+    width: 250px;
+    z-index: 10;
+}
+.img .imagen-2 img{
+    height: 100%;
+    width: 100%;
+}
+.img .imagen-3{
+    height: 250px;
+    width: 250px;
+    z-index: 10;
+}
+.img .imagen-3 img{
+    height: 100%;
+    width: 100%;
+}
+.img .price{
+    font-family: "Catamaran", sans-serif;
+}
+
+
+.spacer-yellow .l-1{
+    position: absolute;
+    top: 29em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFBD59;
+    width: 98%;
+    height: 30px;
+    text-align: center;
+}
+.spacer-yellow .l-2{
+    position: absolute;
+    top: 32em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFBD59;
+    width: 98%;
+    height: 30px;
+    text-align: center;
+}
+
+.spacer-yellow .l-3{
+    position: absolute;
+    top: 36em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFBD59;
+    width: 98%;
+    height: 30px;
+    text-align: center;
+}
+.spacer-yellow .l-4{
+    position: absolute;
+    top: 40em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFBD59;
+    width: 98%;
+    height: 30px;
+    text-align: center;
+}
