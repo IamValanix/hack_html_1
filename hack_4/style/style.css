@@ -46,9 +46,10 @@ html, body{
 .main-title h4{
     font-size: 25px;
     margin: 5px;
+    font-weight: 800;
 }
 .img {
-    margin-top: 5.5em;
+    margin-top: 3.5em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,12 +86,13 @@ html, body{
 }
 .img .price{
     font-family: "Catamaran", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: -5px;
 }
-
-
 .spacer-yellow .l-1{
     position: absolute;
-    top: 29em;
+    top: 28em;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFBD59;
@@ -100,7 +102,7 @@ html, body{
 }
 .spacer-yellow .l-2{
     position: absolute;
-    top: 32em;
+    top: 31em;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFBD59;
@@ -111,7 +113,7 @@ html, body{
 
 .spacer-yellow .l-3{
     position: absolute;
-    top: 36em;
+    top: 34em;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFBD59;
@@ -121,11 +123,27 @@ html, body{
 }
 .spacer-yellow .l-4{
     position: absolute;
-    top: 40em;
+    top: 37em;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #FFBD59;
     width: 98%;
     height: 30px;
     text-align: center;
+}
+.foo h2{
+    font-size: 50px;
+    margin: 0px;
+    margin-top: 100px;
+    COLOR: #B88940;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.foo h3{
+    font-family: "Catamaran", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px;
 }
