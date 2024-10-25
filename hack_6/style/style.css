@@ -1,0 +1,132 @@
+html,body,main,h2,h1,h3{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/2.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-container .offert-ad h2{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 3%;
+    margin-left: 11%;
+}
+.main-container .offert-ad h1{
+    height: auto;
+    width: 47%;
+    margin-left: 11%;
+    font-size: 4.2em;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: 1%;
+}
+.main-container .offert-ad h3{
+    height: auto;
+    width: 41%;
+    margin-left: 11%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-top: 1%;
+    font-weight: 400;
+    font-size: 23px;
+}
+.main-container .offert-ad .green-circle{
+    position: absolute;
+    top: 15%;
+    left: 57%;;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.2em;
+    color: white;
+    background-color: #00BF63;
+    border-radius: 100%;
+    font-weight: 800;
+}
+.chair-container{
+    width: 78%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 4% auto;
+
+}
+
+.chair-container .chair {
+    width: 33.3%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3% auto ; 
+}
+.chair-container .chair img{
+    width: 60%; 
+    height: auto;
+    margin: 0 auto;
+}
+.chair-container .chair .price{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4%;
+    margin-right: 50%;
+}
+.chair-container .chair .price-div{
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-left: -46%;
+
+}
+.chair-container .chair .price-u{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(161, 161, 161);
+    text-decoration: line-through red;
+}
+.chair-container .chair .price-b{
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 25px;
+}
+
+footer .foo{
+    position: relative;
+    bottom: 0px;
+    background-color: black;
+    width: 97.2%;
+    margin: 0px auto;
+    height: 100px;
+
+}
+.foo button {
+    background-color: #00BF63;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 2.4% 0px 0px 12%;
+}
